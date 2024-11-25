@@ -1,0 +1,119 @@
+/* Tổng quát */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #ff758c, #ff7eb3);
+  color: #fff;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1000px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.info-box {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  border-radius: 10px;
+  width: 30%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.info-box h2 {
+  margin: 10px 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.info-box p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+}
+
+.countdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  width: 40%;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #ffedbc;
+  margin: auto;
+}
+
+.header p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #fff;
+  margin: auto;
+}
+
+/* Các hàng thời gian */
+.time-row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.time-block {
+  margin: 0 10px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  width: 80px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.time-block span {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.time-block p {
+  font-size: 1rem;
+  margin: 5px 0 0;
+  color: #fddede;
+}
+
+/* Hiệu ứng */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
